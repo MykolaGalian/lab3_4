@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="612.0" y="685.0">ski.skipass.HalfOfDay</node>
+    <node x="0.0" y="367.0">ski.skipass.SkiPassForDays</node>
+    <node x="544.0" y="433.0">ski.skipass.SkiPassForHalfDay</node>
+    <node x="396.0" y="0.0">ski.skipass.SkiPass</node>
+    <node x="796.0" y="433.0">ski.skipass.SeasonPass</node>
+    <node x="350.0" y="685.0">ski.skipass.Season</node>
+    <node x="894.0" y="685.0">ski.skipass.StatisticElement</node>
+    <node x="474.0" y="937.0">ski.skipass.Turnstile</node>
+    <node x="277.67021276595744" y="410.9787234042552">ski.skipass.SkiPassForLifts</node>
+    <node x="0.0" y="685.0">ski.skipass.SkiPassSystem</node>
+    <node x="233.0" y="937.0">ski.skipass.NumberOfDays</node>
+    <node x="0.0" y="937.0">ski.skipass.NumberOfLifts</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ski.skipass.SkiPassForDays" target="ski.skipass.SkiPass">
+      <point x="0.0" y="-136.5" />
+      <point x="127.0" y="337.0" />
+      <point x="429.375" y="337.0" />
+      <point x="-100.125" y="158.5" />
+    </edge>
+    <edge source="ski.skipass.SeasonPass" target="ski.skipass.SkiPass">
+      <point x="0.0" y="-70.5" />
+      <point x="910.0" y="337.0" />
+      <point x="629.625" y="337.0" />
+      <point x="100.125" y="158.5" />
+    </edge>
+    <edge source="ski.skipass.SkiPassForLifts" target="ski.skipass.SkiPass">
+      <point x="0.0" y="-70.5" />
+      <point x="399.0" y="347.0" />
+      <point x="496.125" y="347.0" />
+      <point x="-33.375" y="158.5" />
+    </edge>
+    <edge source="ski.skipass.SkiPassForHalfDay" target="ski.skipass.SkiPass">
+      <point x="0.0" y="-70.5" />
+      <point x="660.0" y="347.0" />
+      <point x="562.875" y="347.0" />
+      <point x="33.375" y="158.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.817391304347826" x="665.718085106383" y="616.1755319148937" />
+  <SelectedNodes>
+    <node>ski.skipass.SkiPassForLifts</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
